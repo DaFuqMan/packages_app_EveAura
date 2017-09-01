@@ -13,20 +13,23 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/eve_settings_title" >
-         <!-- Buttons -->
-        <PreferenceScreen
+
+        <!-- Buttons -->
+        <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:fragment="com.eve.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
-         <!-- Navigation Bar -->
-        <PreferenceScreen
+
+        <!-- Navigation Bar -->
+        <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
             android:fragment="com.eve.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
-         <!-- Power Menu -->
-        <PreferenceScreen
+
+        <!-- Power Menu -->
+        <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title" 
             android:fragment="com.eve.settings.fragments.PowerMenuSettings"
